@@ -1,0 +1,79 @@
+ 
+  <!--=== page-title-section start ===-->
+  <section ng-controller="login" class="title-hero-bg login-cover-bg" data-stellar-background-ratio="0.2">
+    <div class="table-display">
+      <div class="login v-align text-center">
+        <div class="signup-box">
+          <ul id="signup-tabs" class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" data-target="#login">Login</a></li>
+            <li><a data-toggle="tab" data-target="#account">Create Account</a></li>
+          </ul>
+          <div id="signup-content" class="tab-content">
+            <div id="login" class="tab-pane fade in active">
+              <!--=== Form ===-->
+              <form class="form login_type text-center" name="loginForm" ng-submit="sendMess()" novalidate>
+                <!--=== Username ===-->
+                <div class="form-group">
+                  <input type="text" id="username" name="username" ng-required="true" ng-model="login.name" class="form-control mb-20" placeholder="Username">
+                  <div ng-show="loginForm.username.$touched && loginForm.username.$invalid">
+                    <span style="color: #d42e22">Your Name is Required</span>
+                  </div>
+                </div>
+                <!--=== Password ===-->
+                <div class="form-group">
+                  <input type="password" id="password" name="password" ng-required="true" ng-model="login.password" class="form-control mb-20" placeholder="Password">
+                  <div ng-show="loginForm.password.$touched && loginForm.password.$invalid">
+                    <span style="color: #d42e22">Password is Required</span>
+                  </div>
+                </div>
+                <!--=== Submit ===-->
+                <button type="submit" name="login" class="btn btn-color btn-circle full-width" ng-disabled="loginForm.$invalid">LOGIN</button>
+                <!--=== Signup Text ===-->
+                <h6 class="mt-20 gray-light" >DON'T HAVE AN ACCOUNT?</h6>
+                <!--=== Signup Button ===-->
+                <a data-toggle="tab" data-target="#account">SIGN UP<i class="fa fa-angle-double-right"></i> </a>
+              </form>
+              <!--=== End Form ===-->
+            </div>
+            <div id="account" class="tab-pane fade">
+              <!--=== Form ===-->
+              <form name="accountForm" ng-submit="sendMess()" class="form login_type text-center" novalidate>
+                <!--=== Your Name ===-->
+                <div class="form-group">
+                  <input type="text" id="yourname" name="yourname" ng-required="true" ng-model="account.name" class="form-control mb-20" placeholder="Your Name">
+                  <div ng-show="accountForm.yourname.$touched && accountForm.yourname.$invalid">
+                    <span style="color: #d42e22">Your Name is Required</span>
+                  </div>
+                </div>
+                <!--=== Your Email ===-->
+                <div class="form-group">
+                  <input type="email" id="email" name="email" ng-required="true" ng-model="account.email" class="form-control mb-20" placeholder="Your Email">
+                  <div ng-show="accountForm.email.$touched && accountForm.email.$invalid">
+                    <span style="color: #d42e22">Please Enter Valid Email</span>
+                  </div>
+                </div>
+                <!--=== Password ===-->
+                <div class="form-group">
+                  <input type="password" id="password" ng-required="true" ng-model="account.password" name="password" class="form-control mb-20" placeholder="Password">
+                  <div ng-show="accountForm.password.$touched && accountForm.password.$invalid">
+                    <span style="color: #d42e22">Password is Required</span>
+                  </div>
+                </div>
+                <!--=== Reset Password ===-->
+                <div class="form-group">
+                  <input type="password" id="repassword" ng-required="true" ng-model="account.repassword" name="repassword" class="form-control mb-20" placeholder="Reset Password">
+                  <div ng-show="accountForm.repassword.$touched && accountForm.repassword.$invalid">
+                    <span style="color: #d42e22">Re-enter Your Password</span>
+                  </div>
+                </div>
+                <!--=== Submit ===-->
+                <button type="submit" name="submit" ng-disabled="accountForm.$invalid" class="btn btn-color btn-circle full-width">REGISTER NOW</button>
+              </form>
+              <!--=== End Form ===-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--=== page-title-section end ===-->

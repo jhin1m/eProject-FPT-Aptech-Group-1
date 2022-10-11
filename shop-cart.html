@@ -1,0 +1,105 @@
+  <!--=== page-title-section start ===-->
+  <section class="title-hero-bg shop-cover-bg" data-stellar-background-ratio="0.2">
+    <div class="container">
+      <div class="page-title text-center">
+        <h1>Shop Cart</h1>
+      </div>
+    </div>
+  </section>
+  <!--=== page-title-section end ===-->
+
+  <!--=== Cart Start ======-->
+  <section ng-controller="shopCart">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="table-responsive">
+            <table class="table table-bordered shop-cart">
+              <thead>
+                <tr>
+                  <th>&nbsp;</th>
+                  <th>Item</th>
+                  <th>Product</th>
+                  <th>Price</th>
+                  <th>Quantity</th>
+                  <th>Total</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="cart_item" ng-repeat="item in carts">
+                  <td><a href="" ng-click="removeFromCart(item)" title="Remove this item"><i class="icofont-close-circled"></i></a> </td>
+                  <td><a href="#"> <img src="{{item.frontImage}}" alt=""> </a> </td>
+                  <td><a href="#">{{item.title}}</a> </td>
+                  <td><span>{{item.price}}</span> </td>
+                  <td><span>{{item.quantity}}</span> </td>
+                  <!-- <td><input class="form-control" type="number" step="1" min="1" value="1" ng-model="item.quantity" title="Qty" placeholder="Qty"> -->
+                  </td>
+                  <td class="product-subtotal"><span>{{item.price * item.quantity  | currency}}</span> </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="payment-box">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="summary-cart">
+                      <h6 class="upper-case">Order Details</h6>
+                      <table class="order_table table-responsive table">
+                        <tbody>
+                          <tr>
+                            <th>Subtotal</th>
+                            <td><span>{{totalPrice() | currency}}</span> </td>
+                          </tr>
+                          <tr>
+                            <th>Total</th>
+                            <td><h6><strong>{{totalPrice() | currency}}</strong></h6></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <div class="check-btns">
+                        <a class="btn btn-green btn-animate" type="button" ng-click="reloadPage();"><span>Update Cart <i class="icofont icofont-refresh"></i></span></a>
+                        <button class="btn btn-color btn-animate" href=""><span>Proceed to Checkout <i class="icofont icofont-check"></i></span></button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-coupon">
+                      <h6 class="upper-case">Have a Coupon?</h6>
+                      <div class="input-group">
+                        <input class="form-control" type="text" placeholder="Coupon code">
+                        <div class="input-group-btn">
+                          <button class="btn btn-color btn-animate" type="button"><span>Apply Coupon <i class="icofont icofont-check"></i></span></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div ng-controller="top" class="row mt-50">
+        <div ng-repeat="item in producttop" class="col-md-3 col-sm-6">
+          <div  class="product">
+            <div class="product-wrap"> <img ng-src="{{item.frontImage}}">
+              <div class="product-caption">
+                <div class="product-description text-center">
+                  <div class="product-description-wrap">
+                    <div class="product-title"> <a ng-click="addToCart(item)" href="" class="btn btn-color btn-circle">ADD TO CART <span class="icon"><i class="mdi mdi-cart"></i></span></a> </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-detail">
+              <a class="product-link" href="#!/product-detail/{{item.id}}">{{item.title}} {{item.cat}} Card</a>
+              <p>${{item.price}} <span class="old-price">${{item.oldPrice}}</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--=== Cart End ======-->

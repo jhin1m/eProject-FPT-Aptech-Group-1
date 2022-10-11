@@ -1,0 +1,59 @@
+  <!--=== Flex Slider Start ======-->
+  <section ng-controller="home" class="pt-0 pb-0">
+    <div class="slider-bg flexslider" flexslider>
+      <ul class="slides">
+        <!--=== SLIDE 1 ===-->
+        <li class="flex-active-slide" data-thumb-alt="" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 1;">
+          <div class="slide-img" style="background:url(img/main-bg.jpg) center center / cover scroll no-repeat;"></div>
+          <div class="hero-text-wrap">
+            <div class="hero-text white-color text-left">
+              <div class="container">
+                <h3 class="white-color font-400 cardo-font">Welcome to Papyrus Limited</h3>
+                <h2 class="white-color text-uppercase font-700">visitors receiving 50% sale</h2>
+                <p class="text-left mt-30"><a href="#!shop-standard" class="btn btn-outline-white btn-circle">Purchase Now</a></p>
+              </div>
+            </div>
+          </div>
+        </li>
+        <!--=== SLIDE 2 ===-->
+        <li class="flex-active-slide" data-thumb-alt="" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 1;">
+          <div class="slide-img" style="background:url(img/main-2-bg.jpg) center center / cover scroll no-repeat;"></div>
+          <div class="hero-text-wrap">
+            <div class="hero-text white-color text-left">
+              <div class="container">
+                <h3 class="white-color font-400 cardo-font">We sell Everything you need to</h3>
+                <h2 class="white-color text-uppercase font-700">make your day happier</h2>
+                <p class="text-left mt-30"><a href="#!shop-standard" class="btn btn-outline-white btn-circle">Purchase Now</a></p>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+  </div>
+  </section>
+  <!--=== Flex Slider End ======-->
+
+  <!--=== Portfolio Start ======-->
+  <section class="dark-bg pb-0 pt-0">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="portfolio-container text-center">
+          <ul id="portfolio-grid" class="four-column hover-two">
+            <li ng-repeat="item in products" class="portfolio-item portfolio-masonry-item">
+              <div class="product-wrap"> <img ng-src="{{item.frontImage}}" alt="">
+                <div class="product-caption">
+                  <div class="product-description text-center">
+                    <div class="product-description-wrap">
+                      <div class="product-title"> <a href="{{item.frontImage}}" class="alpha-lightbox"><i class="icofont icofont-plus font-40px"></i></a> </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--=== /.portfolio ===-->
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--=== Portfolio End ======-->

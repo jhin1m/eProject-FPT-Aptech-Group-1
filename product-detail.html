@@ -1,0 +1,138 @@
+<!--=== page-title-section start ===-->
+<section class="title-hero-bg shop-cover-bg" data-stellar-background-ratio="0.2">
+  <div class="container">
+    <div class="page-title text-center">
+      <h1>Product Detail</h1>
+    </div>
+  </div>
+</section>
+<!--=== page-title-section end ===-->
+<style>
+  @import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+  /****** Style Star Rating Widget *****/
+  #rating{border:none;float:left;font-size:20px;}
+  #rating>input{display:none;}/*ẩn input radio - vì chúng ta đã có label là GUI*/
+  #rating>label:before{margin:5px;font-size:1.25em;font-family:FontAwesome;display:inline-block;content:"\f005";}/*1 ngôi sao*/
+  #rating>.half:before{content:"\f089";position:absolute;}/*0.5 ngôi sao*/
+  #rating>label{color:#ddd;float:right;}/*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
+  /*thêm màu cho sao đã chọn và các ngôi sao phía trước*/
+  #rating>input:checked~label,
+  #rating:not(:checked)>label:hover, 
+  #rating:not(:checked)>label:hover~label{color:#FFD700;}
+  /* Hover vào các sao phía trước ngôi sao đã chọn*/
+  #rating>input:checked+label:hover,
+  #rating>input:checked~label:hover,
+  #rating>label:hover~input:checked~label,
+  #rating>input:checked~label:hover~label{color:#FFED85;}
+</style>
+<!--=== Product Detail Start ======-->
+<section ng-controller="productDetail">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="product-slider flexslider">
+          <ul>
+            <li data-thumb="{{product.frontImage}}">
+              <img ng-src="{{product.frontImage}}" alt="single-product" />
+            </li>
+          </ul>
+          <div class="single-product-des">
+            <h5>Product Desription:</h5>
+            <p><strong>Papyrus Limited</strong> {{product.description}}</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h2>{{product.title}} {{product.tag}}</h2>
+        <h3 class="grey">{{product.price}} <span class="old-price font-18px">${{product.oldPrice}}</span></h3>
+        <div class="single-product-qty">
+          <form>
+            <span class="input-group-btn">
+              <a ng-click="addToCart(product)" class="btn btn-dark">ADD TO CART <i class="icofont icofont-cart"></i></a>
+            </span>
+          </form>
+          <div class="product-fabric-detail">
+            <h5>Product Details:</h5>
+            <div ng-repeat="item in product.proDetail">
+              <p>Product code: {{item.code}}</p>
+              <p>Minimum Order Quantity: {{item.minOrder}}</p>
+              <p>Envelope: {{item.envelope}}</p>
+              <p>Fold Type: {{item.foldType}}</p>
+            </div>       
+            <h5>Size:</h5>
+            <div ng-repeat="item in product.proSize">
+              <p>Letter: {{item.letter}}</p>
+              <p>Size: {{item.size}}</p>
+              <p>Weight: {{item.weight}}</p>
+            </div>   
+            <h5>Greeting inside:</h5>
+            <p>{{product.inside}}</p>
+          </div>
+          <h5>Rating</h5>
+              <div id="rating">
+                <input type="radio" id="star5" name="rating" value="5" />
+                <label class = "full" for="star5" title="Awesome - 5 stars"></label>
+                
+                <input type="radio" id="star4half" name="rating" value="4 and a half" />
+                <label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+                
+                <input type="radio" id="star4" name="rating" value="4" />
+                <label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+                
+                <input type="radio" id="star3half" name="rating" value="3 and a half" />
+                <label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+                
+                <input type="radio" id="star3" name="rating" value="3" />
+                <label class = "full" for="star3" title="Meh - 3 stars"></label>
+                
+                <input type="radio" id="star2half" name="rating" value="2 and a half" />
+                <label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+                
+                <input type="radio" id="star2" name="rating" value="2" />
+                <label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+                
+                <input type="radio" id="star1half" name="rating" value="1 and a half" />
+                <label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+                
+                <input type="radio" id="star1" name="rating" value="1" />
+                <label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+                
+                <input type="radio" id="starhalf" name="rating" value="half" />
+                <label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-50">
+      <h3>Feedback</h3>
+      <div class="form-group">
+        <label class="sr-only" for="message">Feedback the product</label>
+        <textarea name="message" class="form-control" id="message" rows="7" placeholder="Your Message" required="" data-error="Please, Leave us a message"></textarea>
+        <div class="help-block with-errors mt-20"></div>
+      </div>
+      <div class="text-center">
+        <button onclick="feedBack()" type="submit" name="submit" class="btn btn-color btn-circle btn-animate"><span>Send Feedback <i class="icofont icofont-simple-right"></i></span></button>
+      </div>
+    </div>
+    <div class="row mt-50">
+      <div ng-repeat="item in producttop" class="col-md-3 col-sm-6">
+        <div  class="product">
+          <div class="product-wrap"> <img ng-src="{{item.frontImage}}">
+            <div class="product-caption">
+              <div class="product-description text-center">
+                <div class="product-description-wrap">
+                  <div class="product-title"> <a ng-click="addToCart(item)" class="btn btn-color btn-circle">ADD TO CART <span class="icon"><i class="mdi mdi-cart"></i></span></a> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product-detail">
+            <a class="product-link" href="#!/product-detail/{{item.id}}">{{item.title}} {{item.cat}} Card</a>
+            <p>${{item.price}} <span class="old-price">${{item.oldPrice}}</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--=== Product Detail End ======-->
