@@ -23,7 +23,7 @@
         ],
         "inside": "“Congratulations”",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/anniversary/1.jpg",
+        "frontImage": "img/product/greetingcard/anniversary/1.jpg",
         "topImage": true
     },
     {
@@ -50,7 +50,7 @@
         ],
         "inside": "“I love you with all my heart”",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/anniversary/2.jpg"
+        "frontImage": "img/product/greetingcard/anniversary/2.jpg"
     },
     {
         "id": 3,
@@ -76,7 +76,7 @@
         ],
         "inside": "“This comes with so much love and thanks for all you do. Happy anniversary to a wonderful mum and dad”",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/anniversary/3.jpg"
+        "frontImage": "img/product/greetingcard/anniversary/3.jpg"
     },
     {
         "id": 4,
@@ -102,7 +102,7 @@
         ],
         "inside": "“with love”",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/anniversary/4.jpg"
+        "frontImage": "img/product/greetingcard/anniversary/4.jpg"
     },
     {
         "id": 5,
@@ -128,7 +128,7 @@
         ],
         "inside": "Blank. Write your own message.",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/anniversary/5.jpg"
+        "frontImage": "img/product/greetingcard/anniversary/5.jpg"
     },
     {
         "id": 6,
@@ -154,7 +154,7 @@
         ],
         "inside": "Blank. Write your own message.",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/anniversary/6.jpg"
+        "frontImage": "img/product/greetingcard/anniversary/6.jpg"
     },
     {
         "id": 7,
@@ -180,7 +180,7 @@
         ],
         "inside": "Blank. Write your own message.",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/anniversary/7.jpg"
+        "frontImage": "img/product/greetingcard/anniversary/7.jpg"
     },
     {
         "id": 8,
@@ -206,7 +206,7 @@
         ],
         "inside": "Blank. Write your own message.",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/anniversary/8.jpg"
+        "frontImage": "img/product/greetingcard/anniversary/8.jpg"
     },
     {
         "id": 9,
@@ -232,7 +232,7 @@
         ],
         "inside": "Blank. Write your own message.",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/anniversary/9.jpg"
+        "frontImage": "img/product/greetingcard/anniversary/9.jpg"
     },
     {
         "id": 10,
@@ -258,7 +258,7 @@
         ],
         "inside": "Blank. Write your own message.",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/anniversary/10.jpg"
+        "frontImage": "img/product/greetingcard/anniversary/10.jpg"
     },
     {
         "id": 11,
@@ -284,7 +284,7 @@
         ],
         "inside": "happy birthday",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/birthday/1.jpg",
+        "frontImage": "img/product/greetingcard/birthday/1.jpg",
         "topImage": true
     },
     {
@@ -311,7 +311,7 @@
         ],
         "inside": "“with love”",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/birthday/2.jpg"
+        "frontImage": "img/product/greetingcard/birthday/2.jpg"
     },
     {
         "id": 13,
@@ -337,7 +337,7 @@
         ],
         "inside": "“especially for you”",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/birthday/3.jpg"
+        "frontImage": "img/product/greetingcard/birthday/3.jpg"
     },
     {
         "id": 14,
@@ -363,7 +363,7 @@
         ],
         "inside": "“enjoy your special day”",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/birthday/4.jpg"
+        "frontImage": "img/product/greetingcard/birthday/4.jpg"
     },
     {
         "id": 15,
@@ -389,7 +389,7 @@
         ],
         "inside": "Blank. Write your own message.",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/birthday/5.jpg"
+        "frontImage": "img/product/greetingcard/birthday/5.jpg"
     },
     {
         "id": 16,
@@ -415,7 +415,7 @@
         ],
         "inside": "“just for you”",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/birthday/6.jpg"
+        "frontImage": "img/product/greetingcard/birthday/6.jpg"
     },
     {
         "id": 17,
@@ -441,7 +441,7 @@
         ],
         "inside": "Blank. Write your own message.",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/birthday/7.jpg"
+        "frontImage": "img/product/greetingcard/birthday/7.jpg"
     },
     {
         "id": 18,
@@ -467,7 +467,7 @@
         ],
         "inside": "“have a lovely birthday”",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/birthday/8.jpg"
+        "frontImage": "img/product/greetingcard/birthday/8.jpg"
     },
     {
         "id": 19,
@@ -493,7 +493,7 @@
         ],
         "inside": "Blank. Write your own message.",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/birthday/9.jpg"
+        "frontImage": "img/product/greetingcard/birthday/9.jpg"
     },
     {
         "id": 20,
@@ -519,7 +519,7 @@
         ],
         "inside": "Blank. Write your own message.",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/birthday/10.jpg"
+        "frontImage": "img/product/greetingcard/birthday/10.jpg"
     },
     {
         "id": 21,
@@ -545,7 +545,7 @@
         ],
         "inside": "Blank. Write your own message.",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/friendship/1.jpg",
+        "frontImage": "img/product/greetingcard/friendship/1.jpg",
         "topImage": true
     },
     {
@@ -572,7 +572,7 @@
         ],
         "inside": "Blank. Write your own message.",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/friendship/2.jpg"
+        "frontImage": "img/product/greetingcard/friendship/2.jpg"
     },
     {
         "id": 23,
@@ -598,7 +598,7 @@
         ],
         "inside": "Blank. Write your own message.",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/friendship/3.jpg"
+        "frontImage": "img/product/greetingcard/friendship/3.jpg"
     },
     {
         "id": 24,
@@ -624,7 +624,7 @@
         ],
         "inside": "“wishing you a fabulous Christmas and new year”",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/friendship/4.jpg"
+        "frontImage": "img/product/greetingcard/friendship/4.jpg"
     },
     {
         "id": 25,
@@ -650,7 +650,7 @@
         ],
         "inside": "“A little Christmas message just to say... hope your Christmas is brilliant in every single way!”",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/friendship/5.jpg"
+        "frontImage": "img/product/greetingcard/friendship/5.jpg"
     },
     {
         "id": 26,
@@ -676,7 +676,7 @@
         ],
         "inside": "“wishing you a fabulous Christmas and new year”",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/friendship/6.jpg"
+        "frontImage": "img/product/greetingcard/friendship/6.jpg"
     },
     {
         "id": 27,
@@ -702,7 +702,7 @@
         ],
         "inside": "Blank. Write your own message.",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/congratulation/1.jpg",
+        "frontImage": "img/product/greetingcard/congratulation/1.jpg",
         "topImage": true
     },
     {
@@ -729,7 +729,7 @@
         ],
         "inside": "Blank. Write your own message.",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/congratulation/2.jpg"
+        "frontImage": "img/product/greetingcard/congratulation/2.jpg"
     },
     {
         "id": 29,
@@ -755,7 +755,7 @@
         ],
         "inside": "“Congratulations”",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/congratulation/3.jpg"
+        "frontImage": "img/product/greetingcard/congratulation/3.jpg"
     },
     {
         "id": 30,
@@ -781,7 +781,7 @@
         ],
         "inside": "Blank. Write your own message.",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/congratulation/4.jpg"
+        "frontImage": "img/product/greetingcard/congratulation/4.jpg"
     },
     {
         "id": 31,
@@ -807,7 +807,7 @@
         ],
         "inside": "“congratulations”",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/congratulation/5.jpg"
+        "frontImage": "img/product/greetingcard/congratulation/5.jpg"
     },
     {
         "id": 32,
@@ -833,7 +833,7 @@
         ],
         "inside": "Blank. Write your own message.",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/congratulation/6.jpg"
+        "frontImage": "img/product/greetingcard/congratulation/6.jpg"
     },
     {
         "id": 33,
@@ -859,7 +859,7 @@
         ],
         "inside": "Blank. Write your own message.",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/congratulation/7.jpg"
+        "frontImage": "img/product/greetingcard/congratulation/7.jpg"
     },
     {
         "id": 34,
@@ -885,7 +885,7 @@
         ],
         "inside": "“Well Done You!”",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/congratulation/8.jpg"
+        "frontImage": "img/product/greetingcard/congratulation/8.jpg"
     },
     {
         "id": 35,
@@ -911,7 +911,7 @@
         ],
         "inside": "Blank. Write your own message.",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/mortherday/1.jpg",
+        "frontImage": "img/product/greetingcard/mortherday/1.jpg",
         "topImage": true
     },
     {
@@ -938,7 +938,7 @@
         ],
         "inside": "Blank. Write your own message.",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/mortherday/2.jpg"
+        "frontImage": "img/product/greetingcard/mortherday/2.jpg"
     },
     {
         "id": 37,
@@ -964,7 +964,7 @@
         ],
         "inside": "“Happy Mother's Day”",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/mortherday/3.jpg"
+        "frontImage": "img/product/greetingcard/mortherday/3.jpg"
     },
     {
         "id": 38,
@@ -990,7 +990,7 @@
         ],
         "inside": "“wishing you a special mother's day”",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/mortherday/4.jpg"
+        "frontImage": "img/product/greetingcard/mortherday/4.jpg"
     },
     {
         "id": 39,
@@ -1016,7 +1016,7 @@
         ],
         "inside": "Blank. Write your own message.",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/mortherday/5.jpg"
+        "frontImage": "img/product/greetingcard/mortherday/5.jpg"
     },
     {
         "id": 40,
@@ -1042,7 +1042,7 @@
         ],
         "inside": "Blank. Write your own message.",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/mortherday/6.jpg"
+        "frontImage": "img/product/greetingcard/mortherday/6.jpg"
     },
     {
         "id": 41,
@@ -1068,7 +1068,7 @@
         ],
         "inside": "“Mothering Sunday”",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/mortherday/7.jpg",
+        "frontImage": "img/product/greetingcard/mortherday/7.jpg",
         "topImage": true
     },
     {
@@ -1095,7 +1095,7 @@
         ],
         "inside": "Blank. Write your own message.",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/mortherday/8.jpg",
+        "frontImage": "img/product/greetingcard/mortherday/8.jpg",
         "topImage": true
     },
     {
@@ -1122,7 +1122,7 @@
         ],
         "inside": "“best of wishes for the new year”",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/newyear/1.jpg",
+        "frontImage": "img/product/greetingcard/newyear/1.jpg",
         "topImage": true
     },
     {
@@ -1149,7 +1149,7 @@
         ],
         "inside": "“happy new year!”",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/newyear/2.jpg"
+        "frontImage": "img/product/greetingcard/newyear/2.jpg"
     },
     {
         "id": 45,
@@ -1175,7 +1175,7 @@
         ],
         "inside": "“best wishes for the new year”",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/newyear/3.jpg"
+        "frontImage": "img/product/greetingcard/newyear/3.jpg"
     },
     {
         "id": 46,
@@ -1201,7 +1201,7 @@
         ],
         "inside": "Blank. Write your own message.",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/greetingcard/newyear/4.jpg"
+        "frontImage": "img/product/greetingcard/newyear/4.jpg"
     },
     {
         "id": 47,
@@ -1226,7 +1226,7 @@
         ],
         "inside": "Blank.",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/giftbag/1.jpg"
+        "frontImage": "img/product/giftbag/1.jpg"
     },
     {
         "id": 48,
@@ -1251,7 +1251,7 @@
         ],
         "inside": "Blank.",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/giftbag/2.jpg"
+        "frontImage": "img/product/giftbag/2.jpg"
     },
     {
         "id": 49,
@@ -1276,7 +1276,7 @@
         ],
         "inside": "Blank.",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/giftbag/3.jpg"
+        "frontImage": "img/product/giftbag/3.jpg"
     },
     {
         "id": 50,
@@ -1301,7 +1301,7 @@
         ],
         "inside": "Blank.",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/giftbag/4.jpg"
+        "frontImage": "img/product/giftbag/4.jpg"
     },
     {
         "id": 51,
@@ -1326,7 +1326,7 @@
         ],
         "inside": "Blank.",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/giftbag/5.jpg",
+        "frontImage": "img/product/giftbag/5.jpg",
         "new": true
     },
     {
@@ -1352,7 +1352,7 @@
         ],
         "inside": "Blank.",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/giftbag/6.jpg",
+        "frontImage": "img/product/giftbag/6.jpg",
         "new": true
     },
     {
@@ -1378,7 +1378,7 @@
         ],
         "inside": "Blank.",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/giftbag/7.jpg",
+        "frontImage": "img/product/giftbag/7.jpg",
         "new": true
     },
     {
@@ -1404,7 +1404,7 @@
         ],
         "inside": "Blank.",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/giftbag/8.jpg",
+        "frontImage": "img/product/giftbag/8.jpg",
         "new": true
     },
     {
@@ -1430,7 +1430,7 @@
         ],
         "inside": "Blank.",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/wrappingpaper/1.jpg",
+        "frontImage": "img/product/wrappingpaper/1.jpg",
         "new": true
     },
     {
@@ -1456,7 +1456,7 @@
         ],
         "inside": "Blank.",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/wrappingpaper/2.jpg",
+        "frontImage": "img/product/wrappingpaper/2.jpg",
         "new": true
     },
     {
@@ -1482,7 +1482,7 @@
         ],
         "inside": "Blank.",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/wrappingpaper/3.jpg",
+        "frontImage": "img/product/wrappingpaper/3.jpg",
         "new": true
     },
     {
@@ -1508,7 +1508,7 @@
         ],
         "inside": "Blank.",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/wrappingpaper/4.jpg",
+        "frontImage": "img/product/wrappingpaper/4.jpg",
         "new": true
     },
     {
@@ -1534,7 +1534,7 @@
         ],
         "inside": "Blank.",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/wrappingpaper/5.jpg"
+        "frontImage": "img/product/wrappingpaper/5.jpg"
     },
     {
         "id": 62,
@@ -1559,6 +1559,6 @@
         ],
         "inside": "Blank.",
         "description": "boasts of recognized brands and a reputable product portfolio that the consumer is already familiar with and trust. The Papyrus Limited products are currently published in many languages worldwide taking into cognizance the cultural sensitivity of the social expression industry.",
-        "frontImage": "/img/product/wrappingpaper/6.jpg"
+        "frontImage": "img/product/wrappingpaper/6.jpg"
     }
 ]
