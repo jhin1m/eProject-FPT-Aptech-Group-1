@@ -1,5 +1,5 @@
   <!--=== page-title-section start ===-->
-  <section ng-controller="shopStandard" class="title-hero-bg shop-cover-bg" data-stellar-background-ratio="0.2">
+  <section class="title-hero-bg shop-cover-bg" data-stellar-background-ratio="0.2">
     <div class="container">
       <div class="page-title text-center">
         <h1>Shop General</h1>
@@ -13,7 +13,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8">
-          <div class="col-md-6 col-sm-6" ng-repeat="item in productslist | filter: search">
+          <div class="col-md-6 col-sm-6" ng-repeat="item in productslist | filter: search | startFrom:(currentPage - 1) * pageSize| limitTo: pageSize">
             <div class="product">
               <div class="product-wrap"> <img ng-src="{{item.frontImage}}" class="img-responsive" alt="team-01">
                 <div class="product-caption">
@@ -29,7 +29,14 @@
                 <p>${{item.price}} <span class="old-price">${{item.oldPrice}}</span></p>
               </div>
             </div>
-          </div>       
+          </div> 
+          <div class="row">
+            <div class="col-md-12">
+              <div class="clearfix">
+                <ul uib-pagination total-items="productslist.length" ng-model="currentPage" items-per-page="pageSize"></ul>
+              </div>
+            </div>
+          </div>      
         </div>
         <!--=== Left Side End===-->
         <div class="col-md-3 col-md-offset-1">

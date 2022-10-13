@@ -1,6 +1,8 @@
 /*Start define Angular App and Modules of Angular myApp*/
 var myApp = angular.module("myApp", [
     'ngRoute',            //Declare ngRoute
+    'ui.bootstrap',
+    'ngAnimate',
     'contactForm',        //Declare Module contact
     'login',              //Declare Module login
     'checkForm',          //Declare Module checkForm
@@ -18,7 +20,6 @@ var myApp = angular.module("myApp", [
     'congratulation',     //Declare Module congratulation
     'mothersday',         //Declare Module mothersday
     'newyear',            //Declare Module newyear
-    'shopProducts',       //Declare Module shopProducts
     'menu'                //Declare Module menu
 ]);
 /* End define Angular App and Modules of Angular myApp*/
@@ -73,8 +74,7 @@ myApp.config(function($routeProvider,$locationProvider) {
             controller:"top" 
         })
         .when("/shop-products",{
-            templateUrl:"shop-products.html", 
-            controller:"shopProducts" 
+            templateUrl:"shop-products.html"
         })
         .when("/anniversary",{
             templateUrl:"shop-products.html",
@@ -210,19 +210,18 @@ angular.module("checkForm", []).controller('checkForm', ['$scope', '$http', func
 
 /* Define module photography*/
 angular.module("photography", []).controller("photography", ['$scope','$http', function($scope,$http){
-        
-    var successCallBack = function(response){
-        $scope.products = response.data;
-    };
-    var errorCallBack = function(response){
-        $scope.error = response.data;
-    };
+
+    $scope.products = [];
+    $scope.pageSize = 8;
+    $scope.currentPage = 1;
 
     $http({
         method: "GET",
         url: "data/products.json"
     })
-    .then(successCallBack, errorCallBack);
+    .then(function(response){
+        $scope.products = response.data;
+    });
 }]);
 
 /* Define module shopCart*/
@@ -267,20 +266,27 @@ myApp.controller("shopCart", ['$scope','$http', function($scope,$http){
 
 /* Define module shopStandard*/
 myApp.controller("shopStandard", ['$scope','$http', function($scope,$http){
-        
-    var successCallBack = function(response){
-        $scope.products = response.data;
-    };
-    var errorCallBack = function(response){
-        $scope.error = response.data;
-    };
+
+    $scope.products = [];
+    $scope.pageSize = 6;
+    $scope.currentPage = 1;
 
     $http({
         method: "GET",
         url: "data/products.json"
-    }).then(successCallBack, errorCallBack);
-    
+    })
+    .then(function(response){
+        $scope.products = response.data;
+    });
 }]);
+
+myApp.filter('startFrom', function() {
+    return function(data, start) {
+        if (!data || !data.length) { return; }
+        start = +start; //parse to int
+        return data.slice(start);
+    }
+});
 
 /* Define module proDetail*/
 angular.module("productDetail", []).controller("productDetail", ['$scope','$http','$filter', '$routeParams', function($scope,$http, $filter, $routeParams){
@@ -292,23 +298,6 @@ angular.module("productDetail", []).controller("productDetail", ['$scope','$http
     .then(function(response){
         $scope.product = $filter('filter')(response.data,{id: parseInt($scope.productId)}, true)[0];
     })
-}]);
-
-/* Define module shopProducts*/
-angular.module("shopProducts", []).controller("shopProducts", ['$scope','$http', function($scope,$http){
-        
-    var successCallBack = function(response){
-        $scope.products = response.data;
-    };
-    var errorCallBack = function(response){
-        $scope.error = response.data;
-    };
-
-    $http({
-        method: "GET",
-        url: "data/products.json"
-    }).then(successCallBack, errorCallBack);
-        
 }]);
 
 /* Define module factory*/
@@ -370,6 +359,8 @@ angular.module("greetingcard",[])
         $scope.title="Greeting Card";
         $scope.description="Our website hosts a curated selection of a few of our favorite designs. Check back frequently for updates and additions. Until then, head to a retailer near you to shop for hundreds more!";
         $scope.productslist=[];
+        $scope.pageSize = 6;
+        $scope.currentPage = 1;
         angular.forEach(response.data,function(product){
             if(product.tag=="Greeting Card"){
                 $scope.productslist.push(product);
@@ -385,6 +376,8 @@ angular.module("wrappaper",[])
         $scope.title="Wrapping Paper";
         $scope.description="Suitable for every occasion, we have birthday wrapping papers, wedding gift wraps, and neutral and simplistic designs suited for anniversaries, new babies, new jobs, new homes, engagements, and more.";
         $scope.productslist=[];
+        $scope.pageSize = 6;
+        $scope.currentPage = 1;
         angular.forEach(response.data,function(product){
             if(product.tag=="Wrapping Paper"){
                 $scope.productslist.push(product);
@@ -400,6 +393,8 @@ angular.module("giftbag",[])
         $scope.title="Gift Bag";
         $scope.description="Available in a variety of prints, our bags are suited for birthdays, weddings, engagements, new baby arrival, or any other occasion";
         $scope.productslist=[];
+        $scope.pageSize = 6;
+        $scope.currentPage = 1;
         angular.forEach(response.data,function(product){
             if(product.tag=="Gift Bag"){
                 $scope.productslist.push(product);
@@ -415,6 +410,8 @@ angular.module("anniversary",[])
         $scope.title="Anniversary";
         $scope.description="Celebrate wedding anniversaries with one of our Happy Anniversary cards! Whether you’re wishing a happy anniversary to your husband, wife, parents, sister, brother, or any other relatives."
         $scope.productslist=[];
+        $scope.pageSize = 6;
+        $scope.currentPage = 1;
         angular.forEach(response.data,function(product){
             if(product.cat=="Anniversary"){
                 $scope.productslist.push(product);
@@ -430,6 +427,8 @@ angular.module("birthday",[])
         $scope.title="Birthday";
         $scope.description="Our cards come in many styles and themes, meaning you can deliver thoughtful or funny birthday cards that are perfect for their special day."
         $scope.productslist=[];
+        $scope.pageSize = 6;
+        $scope.currentPage = 1;
         angular.forEach(response.data,function(product){
             if(product.cat=="Birthday"){
                 $scope.productslist.push(product);
@@ -446,6 +445,8 @@ angular.module("friendship",[])
         $scope.title="Friendship";
         $scope.description="Friendship cards. Stay connected by sending a postcard to a friend or creating a handmade card for friends no matter the distance.";
         $scope.productslist=[];
+        $scope.pageSize = 6;
+        $scope.currentPage = 1;
         angular.forEach(response.data,function(product){
             if(product.cat=="Friendship"){
                 $scope.productslist.push(product);
@@ -461,6 +462,8 @@ angular.module("congratulation",[])
         $scope.title="Congratulation";
         $scope.description="Has your friend passed his or her driving test? Has a family member passed an exam? Or has your colleague got a new job or promotion? You’ll be able to find the perfect card to tell them ‘Well done’.";
         $scope.productslist=[];
+        $scope.pageSize = 6;
+        $scope.currentPage = 1;
         angular.forEach(response.data,function(product){
             if(product.cat=="Congratulation"){
                 $scope.productslist.push(product);
@@ -476,6 +479,8 @@ angular.module("mothersday",[])
         $scope.title="Mother's Day";
         $scope.description="Send your Mum the perfect Mother’s Day card this Mothering Sunday! Thank her for everything she has done for you with a beautiful and thoughtful card available in a variety of modern and traditional designs.";
         $scope.productslist=[];
+        $scope.pageSize = 6;
+        $scope.currentPage = 1;
         angular.forEach(response.data,function(product){
             if(product.cat=="Motherday"){
                 $scope.productslist.push(product);
@@ -491,6 +496,8 @@ angular.module("newyear",[])
         $scope.title="New Year";
         $scope.description="New Year is the time or day currently at which a new calendar year begins and the calendar's year count increments by one. Check out for more designs";
         $scope.productslist=[];
+        $scope.pageSize = 6;
+        $scope.currentPage = 1;
         angular.forEach(response.data,function(product){
             if(product.cat=="New Year"){
                 $scope.productslist.push(product);
