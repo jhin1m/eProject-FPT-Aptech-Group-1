@@ -436,7 +436,7 @@ nav.bootsnav.navbar-sidebar ul.nav {
 }
 
 .parallax-bg-10 {
-    background: url(img/banner.jpg) center 0 no-repeat;
+    background: url(https://raw.githubusercontent.com/jhin1m/jhin1m.github.io/master/img/banner.jpg) center 0 no-repeat;
     background-size: cover;
 }
 
@@ -4635,7 +4635,7 @@ ul.footer-gallery li img {
 }
 
 .shop-cover-bg {
-	background-image: url(img/banner.jpg);
+	background-image: url(https://raw.githubusercontent.com/jhin1m/jhin1m.github.io/master/img/banner.jpg);
 }
 
 .page-title {
