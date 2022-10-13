@@ -1,136 +1,207 @@
-<a name="readme-top"></a>
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
+<a  name="readme-top"></a>
+  
 <!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://raw.githubusercontent.com/jhin1m/eProject-FPT-Aptech-Group-1/main/img/logo/black-logo.png" alt="Logo" width="180" height="auto">
-  </a>
 
-  <h3 align="center">Papyrus</h3>
+<br  />
 
-  <p align="center">
-    Papyrus began in 1950 as a small, family-run business, importing unique fine paper products from Europe. Throughout the decades Papyrus has continually evolved in design, voice, and aesthetic, while remaining true to our passion for fine craftsmanship and artistry.
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the source »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
-  </p>
+<div  align="center">
+
+<a  href="https://github.com/othneildrew/Best-README-Template">
+
+<img  src="https://raw.githubusercontent.com/jhin1m/eProject-FPT-Aptech-Group-1/main/img/logo/black-logo.png"  alt="Logo"  width="180"  height="auto">
+
+</a>
+
+  
+
+<h3  align="center">Papyrus</h3>
+
+  
+
+<p  align="center">
+
+Papyrus began in 1950 as a small, family-run business, importing unique fine paper products from Europe. Throughout the decades Papyrus has continually evolved in design, voice, and aesthetic, while remaining true to our passion for fine craftsmanship and artistry.
+
+<br  />
+
+<a  href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the source »</strong></a>
+
+
+<br  /><a  href="https://github.com/othneildrew/Best-README-Template">View Demo</a> · <a  href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a> · <a  href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+
+</p>
+
 </div>
 
-
+  
+  
+  
 
 <!-- TABLE OF CONTENTS -->
+
 <details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li><a href="#roadmap">Roadmap</a></li>
-  </ol>
+
+<summary>Table of Contents</summary>
+
+<ol>
+
+<li>
+
+<a  href="#about-the-project">About The Project</a>
+
+<ul>
+
+<li><a  href="#built-with">Built With</a></li>
+
+</ul>
+
+</li>
+
+<li><a  href="#features">Features</a></li>
+
+</ol>
+
 </details>
 
-
+  
+  
+  
 
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
+
+  
 
 [![Product Name Screen Shot][product-screenshot]](https://jhin1m.github.io/eProject-FPT-Aptech-Group-1/#!/#%2F!)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+  
+  
+  
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+<p  align="right">(<a  href="#readme-top">back to top</a>)</p>
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+  
+  
+  
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+  
+
+Below is the languages/libraries we used for this project
 
 
-* [![AngularJS][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
+  
+  
+
+* ![HTML]
+
+* ![CSS3]
+ 
+* ![JS]
+
+* [![AngularJS][Angularjs.org]][Angularjs-url]
+
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+
 * [![JQuery][JQuery.com]][JQuery-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+  
+
+<p  align="right">(<a  href="#readme-top">back to top</a>)</p>
+
+  
+  
+  
+  
+
+## Features
 
 
+- [x] The Top of the Page should be presented with a suitable logo with images of cards.
+
+- [x] The site should display a menu with various sections listed into it.
+
+- [x] Various sections such as Birthday, Anniversary, Friendship, New Year, Mother’s Day etc. should be provided with listing of Cards and other Gift-Items.
+
+- [x] Top Selling section should be provided with most selling items listed into it.
+
+- [x] On Clicking on any Card or Gift-Item should open a pop-up window.
+  - [x] A brief summary about individual product should be displayed on the Popup window along with the price.
+
+- [x] Filter should be provided to user to select product, brand etc.
+
+- [x] User should be allowed to provide Ratings and Feedback.
+
+- [x] Site map, Gallery, About us, Contact us link must be added.
+
+- [x] About Us and Contact Us: This menu option should display Email id, address, and contact number.
+
+- [x] Color combination must be uniform throughout the project.
+
+- [x] Navigation must be smooth.
+
+    - [x] Display a continuous scrolling ticker at the bottom of the page with current date, time, and location.
+
+    - [x] Display a visitor count at the top right corner of the page beside a logo image.
+
+    - [x] The menu options should change color on hover and also after clicking.
+
+    - [x] Fade in and fade out options can be used for the menus.
 
 
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+  
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+  
 
+<p  align="right">(<a  href="#readme-top">back to top</a>)</p>
 
+  
+  
 
+## Members of group
+
+<br>
+
+Nguyen Ngoc Bao Duy (**Leader**) - `Student1387810`
+
+<br>
+
+Bui Nguyen Hai Tri - `Student1387799`
+
+<br>
+
+Le Duc Anh - `Student1387838`
+<p  align="right">(<a  href="#readme-top">back to top</a>)</p>
+
+  
 
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+
 [issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+
 [linkedin-url]: https://linkedin.com/in/othneildrew
+
 [product-screenshot]: https://i.ibb.co/61hhBtD/image.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
+
+[HTML]:https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
+[CSS3]:https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
+[JS]:https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
+[Angularjs.org]: https://img.shields.io/badge/AngularJS-E23237?style=for-the-badge&logo=angularjs&logoColor=white
+[Angularjs-url]: https://angularjs.org
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+
 [Bootstrap-url]: https://getbootstrap.com
+
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+
+[JQuery-url]: https://jquery.com
