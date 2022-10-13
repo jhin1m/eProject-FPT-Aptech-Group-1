@@ -436,7 +436,7 @@ nav.bootsnav.navbar-sidebar ul.nav {
 }
 
 .parallax-bg-10 {
-    background: url(img/banner.jpg) center 0 no-repeat;
+    background: url(../img/banner.jpg) center 0 no-repeat;
     background-size: cover;
 }
 
