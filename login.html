@@ -27,7 +27,7 @@
                   </div>
                 </div>
                 <!--=== Submit ===-->
-                <button type="submit" name="login" class="btn btn-color btn-circle full-width" ng-disabled="loginForm.$invalid">LOGIN</button>
+                <button type="submit" onclick="return signUpForm()" name="login" class="btn btn-color btn-circle full-width" ng-disabled="loginForm.$invalid">LOGIN</button>
                 <!--=== Signup Text ===-->
                 <h6 class="mt-20 gray-light" >DON'T HAVE AN ACCOUNT?</h6>
                 <!--=== Signup Button ===-->
@@ -67,7 +67,7 @@
                   </div>
                 </div>
                 <!--=== Submit ===-->
-                <button type="submit" name="submit" ng-disabled="accountForm.$invalid" class="btn btn-color btn-circle full-width">REGISTER NOW</button>
+                <button onclick="return registerForm()" type="submit" name="submit" ng-disabled="accountForm.$invalid" class="btn btn-color btn-circle full-width">REGISTER NOW</button>
               </form>
               <!--=== End Form ===-->
             </div>

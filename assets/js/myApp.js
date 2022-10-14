@@ -510,3 +510,10 @@ function feedBack() {
     alert("Thanks for your feedback!");
   }
 
+function registerForm() {
+    alert("Your account has been created!");
+  }
+
+function signUpForm() {
+    alert("Login successful!");
+  }

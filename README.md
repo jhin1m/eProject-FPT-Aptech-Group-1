@@ -25,10 +25,10 @@ Papyrus began in 1950 as a small, family-run business, importing unique fine pap
 
 <br  />
 
-<a  href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the source »</strong></a>
+<a  href="https://github.com/jhin1m/eProject-FPT-Aptech-Group-1"><strong>Explore the source »</strong></a>
 
 
-<br  /><a  href="https://github.com/othneildrew/Best-README-Template">View Demo</a> · <a  href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a> · <a  href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+<br  /><a  href="https://jhin1m.github.io/eProject-FPT-Aptech-Group-1/">View Demo</a> · <a  href="https://github.com/jhin1m/eProject-FPT-Aptech-Group-1/issues">Report Bug</a> · <a  href="https://github.com/jhin1m/eProject-FPT-Aptech-Group-1/issues">Request Feature</a> . <a  href="https://www.youtube.com/watch?v=B4ZZxupjc9Q&feature=youtu.be">Video</a>
 
 </p>
 
@@ -155,7 +155,7 @@ Below is the languages/libraries we used for this project
 
   
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/jhin1m/eProject-FPT-Aptech-Group-1/issues) for a full list of proposed features (and known issues).
 
   
 
@@ -182,14 +182,6 @@ Le Duc Anh - `Student1387838`
   
 
 <!-- MARKDOWN LINKS & IMAGES -->
-
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-
-[linkedin-url]: https://linkedin.com/in/othneildrew
 
 [product-screenshot]: https://i.ibb.co/61hhBtD/image.png
 
