@@ -130,9 +130,6 @@ Below is the languages/libraries we used for this project
 
 - [x] Top Selling section should be provided with most selling items listed into it.
 
-- [x] On Clicking on any Card or Gift-Item should open a pop-up window.
-  - [x] A brief summary about individual product should be displayed on the Popup window along with the price.
-
 - [x] Filter should be provided to user to select product, brand etc.
 
 - [x] User should be allowed to provide Ratings and Feedback.
