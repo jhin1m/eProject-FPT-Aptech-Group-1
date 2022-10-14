@@ -28,7 +28,11 @@ Papyrus began in 1950 as a small, family-run business, importing unique fine pap
 <a  href="https://github.com/jhin1m/eProject-FPT-Aptech-Group-1"><strong>Explore the source »</strong></a>
 
 
+<<<<<<< HEAD
 <br  /><a  href="https://jhin1m.github.io/eProject-FPT-Aptech-Group-1/">View Demo</a> · <a  href="https://github.com/jhin1m/eProject-FPT-Aptech-Group-1/issues">Report Bug</a> · <a  href="https://github.com/jhin1m/eProject-FPT-Aptech-Group-1/issues">Request Feature</a> . <a  href="https://www.youtube.com/watch?v=B4ZZxupjc9Q&feature=youtu.be">Video</a>
+=======
+<br  /><a  href="https://jhin1m.github.io/eProject-FPT-Aptech-Group-1/">View Demo</a> · <a  href="https://github.com/jhin1m/eProject-FPT-Aptech-Group-1/issues">Report Bug</a> · <a  href="https://github.com/jhin1m/eProject-FPT-Aptech-Group-1/issues">Request Feature</a> . <a  href="https://github.com/jhin1m/eProject-FPT-Aptech-Group-1/issues">Video</a>
+>>>>>>> f3637eb (update readme)
 
 </p>
 
