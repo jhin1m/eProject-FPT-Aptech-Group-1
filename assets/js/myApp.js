@@ -517,3 +517,6 @@ function registerForm() {
 function signUpForm() {
     alert("Login successful!");
   }
+function checkoutCart(){
+    alert("Your order has been placed!");
+}
