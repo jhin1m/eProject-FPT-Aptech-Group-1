@@ -190,7 +190,7 @@ angular.module("menu", [])
 /* Define module login*/
 angular.module("login", []).controller("login", ['$scope','$location', function($scope,$location){
     $scope.sendMess = function(){
-        $location.path('/check-form');
+        return null;
     }
 }]);
 
